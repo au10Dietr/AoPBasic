@@ -1,4 +1,4 @@
-package com.dietrich.formReader.controller;
+package com.dietrich.aspect.controller;
 
 public class Template {
 

@@ -10,12 +10,12 @@
 <aop:aspectj-autoproxy />
 
 <!-- Configure Employee Bean and initialize it -->
-<bean name="template" class="com.dietrich.formReader.controller.Template">
+<bean name="template" class="com.dietrich.aspect.controller.Template">
 </bean>
-<bean name="template2" class="com.dietrich.formReader.controller.Template2">
+<bean name="template2" class="com.dietrich.aspect.controller.Template2">
 </bean>
 
 
 <!-- Configure Aspect Beans, without this Aspects advices wont execute -->
-<bean name="tempalteAspect" class="com.dietrich.formReader.controller.TemplateAspect" />
+<bean name="tempalteAspect" class="com.dietrich.aspect.controller.TemplateAspect" />
 </beans>

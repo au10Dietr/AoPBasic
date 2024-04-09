@@ -1,4 +1,4 @@
-package com.dietrich.formReader.controller;
+package com.dietrich.aspect.controller;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.web.bind.annotation.GetMapping;
